@@ -27,9 +27,9 @@ dir.create("data/covers", showWarnings = FALSE)
 dir.create("plots", showWarnings = FALSE)
 
 # scripts
-source("0-set-themes.r")
-source("1-get-covers.r")
-source("2-one-mode.r")
-source("3-two-mode.r")
+source("code/0-set-themes.r")
+source("code/1-get-covers.r")
+source("code/2-one-mode.r")
+source("code/3-two-mode.r")
 
 # kthxbye
