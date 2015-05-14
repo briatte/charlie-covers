@@ -1,5 +1,5 @@
 #
-# bipartite matrix, inverse frequency weighting
+# weighted bipartite matrix
 #
 bipartite_matrix <- function(d, keep) {
 
@@ -28,7 +28,8 @@ bipartite_matrix <- function(d, keep) {
 }
 
 #
-# bipartite network initialization (by Pedro Jordano)
+# bipartite network initialization
+# @source https://github.com/pedroj/bipartite_plots
 #
 bipartite_network <- function(M, modes = c("A", "P")) {
 
@@ -46,7 +47,8 @@ bipartite_network <- function(M, modes = c("A", "P")) {
 }
 
 #
-# edge weights (by Pedro Jordano)
+# edge weights
+# @source https://github.com/pedroj/bipartite_plots
 #
 edge_weights <- function(M, x = 30) {
 
